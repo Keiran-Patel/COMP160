@@ -1,0 +1,17 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+public class TrafficLightPanel extends Jpanel{
+//private data variables
+private JButton redButton;
+private JButton greenButton; 
+private JButton amberButton;
+private Jlabel lastPressedLabel;
+private JPanel buttonPanel;
+
+/** Constructor: Sets up the GUI */
+
+public TrafficLightPanel(){
+red = new Jbutton redButton("Red"); 
+amber = new Jbutton amberButton("Amber");
+green = new Jbutton greenButton("Green");
